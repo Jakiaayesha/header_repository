@@ -1,0 +1,85 @@
+/*common css start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+/*common css end*/
+/*header start*/
+.header1{
+	background-color:#0c1e24;
+}
+
+.wrapper{
+	padding: 20px 0;
+	margin: 0 auto;
+	width: 85%;
+	overflow: hidden;
+}
+.logo{
+	width: 15%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;	
+}
+.menu ul li a{
+	padding:5px 20px;
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	transition: .4s;
+	text-transform:uppercase;
+}
+.menu ul li a:hover{
+	color:#09799c;
+}
+/*header end*/
+.header2{
+	background-color: cornsilk;
+}
+.wrapper2{
+	padding: 20px 0;
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+
+}
+.logo2{
+	width: 20%;
+	float: left;
+}
+.logo2 img{
+	width: 100%;
+}
+.menu2{
+	width: 80%;
+	float: right;
+}
+.menu2 ul{
+	float: right;
+}
+.menu2 ul li{
+	list-style: none;
+	padding: 6px 25px;
+	display: inline-block;
+}
+.menu2 ul li a{
+	text-decoration: none;
+	color:#180f45;
+	transition: .5s;
+}
+.menu2 ul li a:hover{
+	color:#f70a90;
+}
